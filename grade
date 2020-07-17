@@ -1,0 +1,30 @@
+DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"> 
+        content="width=device-width,intial-sacle=1.0"> 
+        <title>Day 3 assignment</title>
+    </head>     
+    <body>
+        <h1>grade</h1>
+    <script>
+         let score= promt("enter score");
+         comsole.log("student entered score"+number(score));
+
+         if(score >=75 && score <=99){
+             console.log(`mark are ${score}and grade is A`)
+         }
+          else if(score >=50 && score <75){
+              console.log(`mark are ${score} and grade is B`)
+          } 
+        else{
+            cosole.log("ypu are failed");
+        };
+
+        console.log("using terniary")
+
+        console.log(score >=75 && score <99? `mark are ${score} and grade is A`:(score >= 50 && score <75)? `marks are ${score} and grade is B`:'you are failed');
+    </script>
+    </body>
+</html>

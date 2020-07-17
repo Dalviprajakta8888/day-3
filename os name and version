@@ -1,0 +1,19 @@
+DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"> 
+        content="width=device-width,intial-sacle=1.0"> 
+        <title>Day 3 assignment</title>
+    </head>     
+    <body>
+        <h1>os name and version</h1>
+    <script>
+         osname=promt("enter os name with version using space");
+         console.log(osname);
+         arr=osname.split(" ");
+         console.log(arr)
+        console.log("the os is "+arr[0]+"and the version is" +arr[1]);        
+    </script>
+    </body>
+</html>
